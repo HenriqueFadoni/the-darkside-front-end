@@ -4,7 +4,7 @@ import topLogo from '../../../assets/images/top-logo.png'
 
 const TopLogo: React.FC = () => (
   <div className="top-logo">
-    <img src={topLogo} />
+    <img src={topLogo} alt="Darkside's Logo"/>
   </div>
 );
 

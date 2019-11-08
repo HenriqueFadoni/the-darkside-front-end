@@ -6,10 +6,10 @@ import logoOrbit from '../../../../assets/images/logo-orbit.png';
 const AnimatedLogo: React.FC = () => (
   <div className="interactive-logo--container">
     <div className="interactive-logo--planet">
-      <img src={logoPlanet} />
+      <img src={logoPlanet} alt="Darkside's Interactive Planet Logo"/>
     </div>
     <div className="interactive-logo--orbit">
-      <img src={logoOrbit} />
+      <img src={logoOrbit} alt="Darkside's Interactive Orbit Logo"/>
     </div>
   </div>
 );
