@@ -11,10 +11,10 @@
     
 		background-image: linear-gradient(
         to right, 
-        rgba(#201F1F, 0.9), 
-        rgba(#201F1F, 0.9)
+        rgba($color-primary-darken, 0.9), 
+        rgba($color-primary-darken, 0.9)
       ),
-			url("../assets/images/login-bg.jpg");
+			url("../../assets/images/login-bg.jpg");
 		background-size: cover;
   }
   
@@ -60,7 +60,7 @@
 
       font-family: 'Arciform';
       font-size: 1.5rem;
-      color: #4B86B1;
+      color: $color-purple-ligthen;
     }
 
     &--submit-btn {
@@ -68,10 +68,10 @@
       margin-top: 4rem;
       margin-bottom: 2.8rem;
       background-color: transparent;
-      border: 1px solid #5556FE;
+      border: 1px solid $color-purple;
       font-family: 'Arciform';
       font-size: 2rem;
-      color: #5556FE;
+      color: $color-purple;
     }
   }
 
@@ -86,8 +86,8 @@
       align-items: center;
 
       overflow: hidden;
-      background: #383838;
-      box-shadow: -8px 12px 17px rgba(#000000, 0.6);
+      background: $color-primary;
+      box-shadow: -8px 12px 17px rgba($color-black, 0.6);
       border-radius: 21px;
 
       margin: 2rem;
@@ -116,7 +116,7 @@
   &__footer-container {
     height: 6rem;
     width: 100vw;
-    background-color: #2F363E;
+    background-color: $color-grey;
     align-self: flex-end;
 
     display: flex;
@@ -130,11 +130,5 @@
         text-decoration: underline;
       }
     }
-  }
-}
-
-@keyframes spin {
-  100% {
-    transform: rotate(360deg);
   }
 }
