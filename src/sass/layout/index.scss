@@ -112,23 +112,4 @@
       }
     }
   }
-
-  &__footer-container {
-    height: 6rem;
-    width: 100vw;
-    background-color: $color-grey;
-    align-self: flex-end;
-
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-    padding: 2rem;
-
-    h3 {
-      span {
-        text-decoration: underline;
-      }
-    }
-  }
 }
