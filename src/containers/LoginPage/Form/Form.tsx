@@ -1,7 +1,7 @@
 import React from 'react';
 
 import AnimatedLogo from './AnimatedLogo/AnimatedLogo';
-import LoginForm from './LoginForm/LoginForm';
+import LoginForm from './Login/Login';
 
 const Form: React.FC = () => {
   return (
