@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Arciform';
+  src: local('Arciform'), ur('./assets/fonts/arciform.otf') format('otf');
+}
+
+.arciform {
+  font-family: 'Arciform';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.body-text-2 {
+  font-size: 1.5rem;
+}
