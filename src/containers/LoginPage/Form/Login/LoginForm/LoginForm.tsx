@@ -4,7 +4,7 @@ import FormInput from './FormInput/FormInput';
 import FormBtn from './FormBtn/FormBtn';
 
 const LoginForm: React.FC = () => (
-  <form className="login-page__form--fields">
+  <form className="form--fields">
     <FormInput
       inputType="email"
       holder="E-mail"

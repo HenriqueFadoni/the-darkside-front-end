@@ -6,7 +6,7 @@ interface FormBtnProps {
 
 const FormBtn: React.FC<FormBtnProps> = ({ text }) => (
   <button
-    className="login-page__form--submit-btn"
+    className="purple-btn"
     type="submit"
   >
     {text}

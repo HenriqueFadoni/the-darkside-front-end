@@ -4,11 +4,11 @@ import logoPlanet from '../../../../assets/images/logo-planet.png';
 import logoOrbit from '../../../../assets/images/logo-orbit.png';
 
 const AnimatedLogo: React.FC = () => (
-  <div className="login-page__form-logo--container">
-    <div className="login-page__form-logo--planet">
+  <div className="interactive-logo--container">
+    <div className="interactive-logo--planet">
       <img src={logoPlanet} />
     </div>
-    <div className="login-page__form-logo--orbit">
+    <div className="interactive-logo--orbit">
       <img src={logoOrbit} />
     </div>
   </div>

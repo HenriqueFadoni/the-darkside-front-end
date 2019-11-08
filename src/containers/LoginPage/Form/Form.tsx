@@ -5,7 +5,7 @@ import LoginForm from './Login/Login';
 
 const Form: React.FC = () => {
   return (
-    <div className="login-page__form--container">
+    <div className="form--container">
       <AnimatedLogo />
       <LoginForm />
     </div>

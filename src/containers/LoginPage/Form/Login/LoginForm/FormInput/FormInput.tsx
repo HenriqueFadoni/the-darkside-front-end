@@ -7,7 +7,7 @@ interface FormInputProps {
 
 const FormInput: React.FC<FormInputProps> = ({ inputType, holder }) => (
   <input
-    className="login-page__form--inputs"
+    className="form--inputs"
     type={inputType}
     placeholder={holder}
     required

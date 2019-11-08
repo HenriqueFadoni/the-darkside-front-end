@@ -1,0 +1,37 @@
+.interactive-logo {
+  &--container {
+    height: 16.5rem;
+    width: 16.5rem;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+    background: $color-primary;
+    box-shadow: -8px 12px 17px rgba($color-black, 0.6);
+    border-radius: 21px;
+
+    margin: 2rem;
+  }
+
+  &--planet {
+    position: absolute;
+
+    img {
+      height: 9.45rem;
+      width: 9.9rem;
+    }
+  }
+
+  &--orbit {
+    position: absolute;
+
+    img {
+      height: 13.5rem;
+      width: 13.5rem;
+      animation: 3s spin linear infinite;
+    }
+  }
+}
