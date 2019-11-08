@@ -3,11 +3,15 @@ import React from 'react';
 import LoginForm from './LoginForm/LoginForm';
 import RegisterBtn from './RegisterBtn/RegisterBtn';
 
-const Login: React.FC = () => {
+interface LoginProps {
+  signUpHandler: () => void;
+}
+
+const Login: React.FC<LoginProps> = ({ signUpHandler }) => {
   return (
     <div>
       <LoginForm />
-      <RegisterBtn />
+      <RegisterBtn signUpHandler={signUpHandler} />
     </div>
   );
 }

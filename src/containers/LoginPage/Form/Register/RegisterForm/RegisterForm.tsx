@@ -3,7 +3,7 @@ import React from 'react';
 import FormInput from '../../../../../components/FormInput/FormInput';
 import FormBtn from '../../../../../components/FormBtn/FormBtn';
 
-const LoginForm: React.FC = () => (
+const RegisterForm: React.FC = () => (
   <form className="form--fields">
     <FormInput
       inputType="email"
@@ -13,8 +13,12 @@ const LoginForm: React.FC = () => (
       inputType="password"
       holder="Password"
     />
-    <FormBtn text="LOGIN" />
+    <FormInput
+      inputType="password"
+      holder="Password"
+    />
+    <FormBtn text="REGISTER" />
   </form>
 );
 
-export default LoginForm;
+export default RegisterForm;
