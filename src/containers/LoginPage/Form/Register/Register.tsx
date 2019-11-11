@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import * as actions from '../../../../store/actions/index';
 
@@ -11,20 +11,19 @@ interface RegisterProps {
 }
 
 const Register: React.FC<RegisterProps> = ({ signInHandler }) => {
-  const { error } = useSelector((state: any) => state);
+  const { registerSuccess, error } = useSelector((state: any) => state);
   const dispatch = useDispatch();
 
   const onSubmitHandler = async (email: string, password: string) => {
     dispatch(actions.registerUser(email, password));
-    if (!error) {
-      //redirect user
-    }
   }
 
   const errorHandler = (
     <ErrorAlert />
   )
 
+  if (registerSuccess) signInHandler();
+  
   return (
     <div>
       {error && errorHandler}
